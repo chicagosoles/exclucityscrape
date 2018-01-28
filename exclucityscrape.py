@@ -67,6 +67,6 @@ def monitor():
 		                        }
 		                              ]
 		                        }
-		r = requests.post('https://discordapp.com/api/webhooks/407279968897466388/NchH9r3cbcfmLgSUhBF5zD9CRSP-69sFwPyvn5s2rL4qfplvepknOk3ASaMk4VuunyOD', headers=discordHeaders, json=body)
+		r = requests.post('webhook goes here', headers=discordHeaders, json=body)
 while True:
 	monitor()
